@@ -1,17 +1,19 @@
 body {
     background-color: pink;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
 main {
-    height: 50em;
+    height: 95%;
     width: 30em;
     background-color: black;
     position: relative;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .information-front {
@@ -47,7 +49,7 @@ div::after {
 
 article.info {
     position: absolute;
-    top: 35em;
+    top: 30em;
     left: 13em;
     transform: translate(-50%, -50%);
     width: 20em;
@@ -78,7 +80,7 @@ p:first-of-type {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 45em;
+    top: 39em;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
