@@ -1,59 +1,87 @@
 <%- include('./partials/head') %>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <div class="wrapper">
-          <form action="">
-            <h1>Login</h1>
-            <div class="input-box">
-              <input type="Ilona" placeholder="Username" required>
-            </div>
-            <div class="input-box">
-              <input type="admin" placeholder="Password" required>
-            </div>
-
-            <div class="remember-forgot">
-              <label><input type="checkbox"> Remember me
-              </label>
-            </div>
-
-            <button type="submit" class="btn">Log in</button>
-          </form>
-        </div>
+  <main>
+    <section class="information-front">
+      <div>
+        <img src="/styles/avatar.jpg" alt="avatar">
       </div>
-      <div class="flip-card-back">
-        <div class="profile-container">
-          <div class="profile-picture">
-            <img src="./images/ilona-foto.png" style="width:200px;height:200px" class="center">
-            <h1>
-              <%= data.name %>
-            </h1>
-            <div class="bio">
-              Text, enter here
-            </div>
-            <h2> Achievements</h2>
-            <div class="achievements">
-              <div class="achievement">
-                <div class="achievements-icon"></div>
-                <img src="./images/laptop-icon2.png" style="width:50px;height:50px">
-              </div>
-              <div class="achievement">
-                <div class="achievements-icon"></div>
-                <img src="./images/hike-icon.png" style="width:50px;height:50px">
-              </div>
-              <div class="achievement">
-                <div class="achievements-icon"></div>
-                <img src="./images/gaming-controler.png" style="width:50px;height:50px">
-              </div>
-            </div>
-          </div>
-        </div>
+      <article class="info">
+        <h1> Name </h1>
+        <p> City </p>
+        <p> Age </p>
+      </article>
+    </section>
+
+    <article class="button-next">
+      <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="298" height="512"
+        shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+        fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 298 511.93">
+        <path fill-rule="nonzero"
+          d="M70.77 499.85c-16.24 16.17-42.53 16.09-58.69-.15-16.17-16.25-16.09-42.54.15-58.7l185.5-185.03L12.23 70.93c-16.24-16.16-16.32-42.45-.15-58.7 16.16-16.24 42.45-16.32 58.69-.15l215.15 214.61c16.17 16.25 16.09 42.54-.15 58.7l-215 214.46z" />
+      </svg>
+    </article>
+
+    <section class="information-contact">
+      <h2> Message me </h2>
+      <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 107.41"
+        style="enable-background:new 0 0 122.88 107.41" xml:space="preserve">
+        <style type="text/css">
+          .st0 {
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+          }
+        </style>
+        <g>
+          <path class="st0"
+            d="M60.83,17.19C68.84,8.84,74.45,1.62,86.79,0.21c23.17-2.66,44.48,21.06,32.78,44.41 c-3.33,6.65-10.11,14.56-17.61,22.32c-8.23,8.52-17.34,16.87-23.72,23.2l-17.4,17.26L46.46,93.56C29.16,76.9,0.95,55.93,0.02,29.95 C-0.63,11.75,13.73,0.09,30.25,0.3C45.01,0.5,51.22,7.84,60.83,17.19L60.83,17.19L60.83,17.19z" />
+        </g>
+      </svg>
+    </section>
+  </main>
+
+  <main>
+    <section class="information-front">
+      <div>
+        <img src="/styles/avatar.jpg" alt="avatar">
       </div>
-    </div>
-  </div>
-  </div>
-  </div>
+      <article class="info">
+        <h1>
+          <&= data.name &>
+        </h1>
+        <p> City </p>
+        <p> Age </p>
+      </article>
+    </section>
+
+    <article class="button-next">
+      <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="298" height="512"
+        shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+        fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 298 511.93">
+        <path fill-rule="nonzero"
+          d="M70.77 499.85c-16.24 16.17-42.53 16.09-58.69-.15-16.17-16.25-16.09-42.54.15-58.7l185.5-185.03L12.23 70.93c-16.24-16.16-16.32-42.45-.15-58.7 16.16-16.24 42.45-16.32 58.69-.15l215.15 214.61c16.17 16.25 16.09 42.54-.15 58.7l-215 214.46z" />
+      </svg>
+    </article>
+
+    <section class="information-contact">
+      <h2> Message me </h2>
+      <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 107.41"
+        style="enable-background:new 0 0 122.88 107.41" xml:space="preserve">
+        <style type="text/css">
+          .st0 {
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+          }
+        </style>
+        <g>
+          <path class="st0"
+            d="M60.83,17.19C68.84,8.84,74.45,1.62,86.79,0.21c23.17-2.66,44.48,21.06,32.78,44.41 c-3.33,6.65-10.11,14.56-17.61,22.32c-8.23,8.52-17.34,16.87-23.72,23.2l-17.4,17.26L46.46,93.56C29.16,76.9,0.95,55.93,0.02,29.95 C-0.63,11.75,13.73,0.09,30.25,0.3C45.01,0.5,51.22,7.84,60.83,17.19L60.83,17.19L60.83,17.19z" />
+        </g>
+      </svg>
+    </section>
+
+  </main>
 
 
   <%- include('./partials/foot') %>
