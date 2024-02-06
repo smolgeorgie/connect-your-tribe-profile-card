@@ -1,14 +1,59 @@
 <%- include('./partials/head') %>
 
-<article>
-  <header>
-    <h1>Hallo</h1>
-    <p>mijn naam is</p>
-  </header>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="wrapper">
+          <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+              <input type="Ilona" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+              <input type="admin" placeholder="Password" required>
+            </div>
 
-  <p><%= data.name %></p>
+            <div class="remember-forgot">
+              <label><input type="checkbox"> Remember me
+              </label>
+            </div>
 
-  <footer></footer>
-</article>
+            <button type="submit" class="btn">Log in</button>
+          </form>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="profile-container">
+          <div class="profile-picture">
+            <img src="./images/ilona-foto.png" style="width:200px;height:200px" class="center">
+            <h1>
+              <%= data.name %>
+            </h1>
+            <div class="bio">
+              Text, enter here
+            </div>
+            <h2> Achievements</h2>
+            <div class="achievements">
+              <div class="achievement">
+                <div class="achievements-icon"></div>
+                <img src="./images/laptop-icon2.png" style="width:50px;height:50px">
+              </div>
+              <div class="achievement">
+                <div class="achievements-icon"></div>
+                <img src="./images/hike-icon.png" style="width:50px;height:50px">
+              </div>
+              <div class="achievement">
+                <div class="achievements-icon"></div>
+                <img src="./images/gaming-controler.png" style="width:50px;height:50px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
 
-<%- include('./partials/foot') %>
+
+  <%- include('./partials/foot') %>
