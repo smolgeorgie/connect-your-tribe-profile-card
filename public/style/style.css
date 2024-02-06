@@ -5,15 +5,17 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    margin: 0;
 }
 
 main {
-    height: 95%;
+    height: 97%;
     width: 30em;
     background-color: black;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
+    margin: 0;
 }
 
 .information-front {
@@ -49,7 +51,7 @@ div::after {
 
 article.info {
     position: absolute;
-    top: 30em;
+    top: 28em;
     left: 13em;
     transform: translate(-50%, -50%);
     width: 20em;
@@ -65,9 +67,9 @@ h1 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0;
-    color: white;
+    color: #eeee;
 }
 
 p:first-of-type {
